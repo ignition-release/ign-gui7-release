@@ -1,12 +1,6 @@
-ignition-gui3 (3.2.0-1~focal) focal; urgency=medium
+ignition-gui4 (3.999.999-1~focal) focal; urgency=medium
 
-  * ignition-gui3 3.2.0-1 release
+  * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Mon, 22 Jun 2020 20:49:57 -0700
-
-ignition-gui3 (3.1.0-1~focal) focal; urgency=medium
-
-  * ignition-gui3 3.1.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Sat, 28 Mar 2020 09:28:50 -0700
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:35:11 +0200
 
