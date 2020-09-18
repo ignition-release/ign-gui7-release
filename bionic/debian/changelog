@@ -1,3 +1,9 @@
+ignition-gui4 (4.0.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-gui4 4.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 18 Sep 2020 13:42:53 -0700
+
 ignition-gui4 (3.999.999-1~bionic) bionic; urgency=medium
 
   * Stub to be removed after first entry
