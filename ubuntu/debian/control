@@ -28,8 +28,8 @@ Build-Depends: cmake,
                libignition-plugin-dev,
                libignition-rendering5-ogre1-dev,
                libignition-tools-dev,
-               libignition-transport9-dev,
-               libignition-msgs6-dev
+               libignition-transport10-dev,
+               libignition-msgs7-dev
 Vcs-Browser: https://github.org/ignition-relase/ign-gui5-release
 Vcs-Git: https://github.org/ignition-relase/ign-gui5-release
 Homepage: http://ignitionrobotics.org/
@@ -65,11 +65,11 @@ Depends: libtinyxml2-dev,
          libignition-cmake2-dev,
          libignition-math6-dev (>= 6.5.0),
          libignition-common3-events-dev,
-         libignition-transport9-dev,
+         libignition-transport10-dev,
          libignition-plugin-dev,
          libignition-rendering5-ogre1-dev,
          libignition-tools-dev,
-         libignition-msgs6-dev,
+         libignition-msgs7-dev,
          libignition-gui5 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
