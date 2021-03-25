@@ -1,3 +1,9 @@
+ignition-gui5 (5.0.0~pre1-1~buster) buster; urgency=medium
+
+  * ignition-gui5 5.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 25 Mar 2021 15:09:39 -0700
+
 ignition-gui5 (4.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
