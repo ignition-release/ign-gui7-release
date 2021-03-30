@@ -1,3 +1,9 @@
+ignition-gui5 (5.0.0~pre2-1~focal) focal; urgency=medium
+
+  * ignition-gui5 5.0.0~pre2-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Mar 2021 12:57:00 -0700
+
 ignition-gui5 (5.0.0~pre1-2~focal) focal; urgency=medium
 
   * ignition-gui5 5.0.0~pre1-2 release
