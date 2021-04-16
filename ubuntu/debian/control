@@ -30,10 +30,10 @@ Build-Depends: cmake,
                libignition-math6-dev (>= 6.5.0),
                libignition-common4-events-dev,
                libignition-plugin-dev,
-               libignition-rendering5-ogre1-dev,
+               libignition-rendering6-ogre1-dev,
                libignition-tools-dev,
-               libignition-transport10-dev,
-               libignition-msgs7-dev
+               libignition-transport11-dev,
+               libignition-msgs8-dev
 Vcs-Browser: https://github.com/ignition-release/ign-gui6-release
 Vcs-Git: https://github.com/ignition-release/ign-gui6-release
 Homepage: http://ignitionrobotics.org/
@@ -73,11 +73,11 @@ Depends: libtinyxml2-dev,
          libignition-cmake2-dev,
          libignition-math6-dev (>= 6.5.0),
          libignition-common4-events-dev,
-         libignition-transport10-dev,
+         libignition-transport11-dev,
          libignition-plugin-dev,
-         libignition-rendering5-ogre1-dev,
+         libignition-rendering6-ogre1-dev,
          libignition-tools-dev,
-         libignition-msgs7-dev,
+         libignition-msgs8-dev,
          libignition-gui6 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
