@@ -33,8 +33,8 @@ Build-Depends: cmake,
                libignition-plugin-dev,
                libignition-rendering7-ogre1-dev,
                libignition-tools-dev,
-               libignition-transport11-dev,
-               libignition-msgs8-dev
+               libignition-transport12-dev,
+               libignition-msgs9-dev
 Vcs-Browser: https://github.com/ignition-release/ign-gui7-release
 Vcs-Git: https://github.com/ignition-release/ign-gui7-release
 Homepage: http://ignitionrobotics.org/
@@ -75,11 +75,11 @@ Depends: libtinyxml2-dev,
          libignition-math6-dev (>= 6.5.0),
          libignition-common4-events-dev (>= 4.1.0),
          libignition-common4-profiler-dev (>= 4.1.0),
-         libignition-transport11-dev,
+         libignition-transport12-dev,
          libignition-plugin-dev,
          libignition-rendering7-ogre1-dev,
          libignition-tools-dev,
-         libignition-msgs8-dev,
+         libignition-msgs9-dev,
          libignition-gui7 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
