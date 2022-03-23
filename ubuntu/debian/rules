@@ -1,21 +1,16 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
-# This file was originally written by Joey Hess and Craig Small.
-# As a special exception, when this file is copied by dh-make into a
-# dh-make output file, you may use that output file without restriction.
-# This special exception was added by Craig Small in version 0.37 of dh-make.
-
-.PHONY: override_dh_auto_configure \
-        override_dh_auto_test
 
 %:
-	dh $@ --parallel
+	dh $@
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
-# test cannot run in parallel
 override_dh_auto_test:
 	true
-# dh_auto_test --max-parallel=1
+
+# No way of using xfvb to run tests consistently
+#	xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" \
+#				dh_auto_test --no-parallel -- \
+#					ARGS='-E UNIT_Application_TEST\|UNIT_Helpers_TEST\|INTEGRATION_ExamplesBuild_TEST\|UNIT_ign_TEST\|INTEGRATION_camera_tracking\|INTEGRATION_minimal_scene\|INTEGRATION_transport_scene_manager\INTEGRATION_marker_manager\INTEGRATION_scene3d'
