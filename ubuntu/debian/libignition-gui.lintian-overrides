@@ -1,0 +1,3 @@
+# Plugin links against other plugin in the plugins path. This is a valid
+# case considered in the Lintian webpage
+custom-library-search-path usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libGrid3D.so RUNPATH*
