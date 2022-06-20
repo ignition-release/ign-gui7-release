@@ -1,7 +1,7 @@
 usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-gui*/*
-usr/share/ignition/ignition-gui[0-99]/ignition-gui*.tag.xml
-usr/share/ignition/gui[0-99].yaml
-usr/lib/ruby/ignition/*
+usr/lib/*/cmake/+(ignition|gz)-gui*/*
+usr/share/+(ignition|gz)/+(ignition|gz)-gui[0-99]/+(ignition|gz)-gui*.tag.xml
+usr/share/+(ignition|gz)/gui[0-99].yaml
+usr/lib/ruby/+(ignition|gz)/*
