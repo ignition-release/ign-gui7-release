@@ -2,6 +2,6 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/*-gui*/*
-usr/share/*/*-gui[0-99]/*-gui*.tag.xml
+usr/share/ignition/*-gui[0-99]/*-gui*.tag.xml
 usr/share/*/gui[0-99].yaml
 usr/lib/ruby/*/*
