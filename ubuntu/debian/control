@@ -35,10 +35,10 @@ Build-Depends: cmake,
                qtbase5-dev,
                qtdeclarative5-dev,
                qtquickcontrols2-5-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ignition-gui
-Vcs-Git: https://github.com/ignition-release/ign-gui7-release
+Vcs-Browser: https://github.com/gazebosim/gz-gui
+Vcs-Git: https://github.com/gazebo-release/gz-gui7-release
 Standards-Version: 4.5.1
-Homepage: http://ignitionrobotics.org/
+Homepage: http://gazebosim.org/
 
 Package: libignition-gui7
 Architecture: any
@@ -46,8 +46,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Gui classes and functions for robot apps - Shared library
- Ignition Gui is a component in the ignition framework, a set of libraries
+Description: Gazebo Gui classes and functions for robot apps - Shared library
+ Gazebo Gui is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Package contains the main libraries
@@ -87,8 +87,8 @@ Depends: libignition-cmake3-dev,
          qtquickcontrols2-5-dev,
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Gui classes and functions for robot apps - Development files
- Ignition Gui is a component in the ignition framework, a set of libraries
+Description: Gazebo Gui classes and functions for robot apps - Development files
+ Gazebo Gui is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Package for development libraries and headers.
