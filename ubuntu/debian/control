@@ -1,4 +1,4 @@
-Source: ignition-gui7
+Source: gz-gui7
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -40,11 +40,13 @@ Vcs-Git: https://github.com/gazebo-release/gz-gui7-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libignition-gui7
+Package: libgz-gui7
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-gui7 (<< 6.999.999+nightly+git20220629+1r05f4beca490533c24c57890d625a2d878c0fba09-1)
+Replaces: libignition-gui7 (<< 6.999.999+nightly+git20220629+1r05f4beca490533c24c57890d625a2d878c0fba09-1)
 Multi-Arch: same
 Description: Gazebo Gui classes and functions for robot apps - Shared library
  Gazebo Gui is a component in the Gazebo framework, a set of libraries
@@ -52,13 +54,13 @@ Description: Gazebo Gui classes and functions for robot apps - Shared library
  .
  Package contains the main libraries
 
-Package: libignition-gui7-dev
+Package: libgz-gui7-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake3-dev,
          libignition-common5-events-dev,
          libignition-common5-profiler-dev,
-         libignition-gui7 (= ${binary:Version}),
+         libgz-gui7 (= ${binary:Version}),
          libignition-math7-dev,
          libignition-msgs9-dev,
          libignition-plugin2-dev,
@@ -86,9 +88,27 @@ Depends: libignition-cmake3-dev,
          qtdeclarative5-dev,
          qtquickcontrols2-5-dev,
          ${misc:Depends}
+Breaks: libignition-gui7-dev (<< 6.999.999+nightly+git20220629+1r05f4beca490533c24c57890d625a2d878c0fba09-1)
+Replaces: libignition-gui7-dev (<< 6.999.999+nightly+git20220629+1r05f4beca490533c24c57890d625a2d878c0fba09-1)
 Multi-Arch: same
 Description: Gazebo Gui classes and functions for robot apps - Development files
  Gazebo Gui is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Package for development libraries and headers.
+
+Package: libignition-gui7
+Depends: libgz-gui7, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-gui7-dev
+Depends: libgz-gui7-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
