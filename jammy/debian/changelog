@@ -1,3 +1,9 @@
+gz-gui7 (7.0.0~pre1-1~jammy) jammy; urgency=medium
+
+  * gz-gui7 7.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 31 Aug 2022 19:10:05 -0700
+
 gz-gui7 (6.999.999-1~jammy) jammy; urgency=medium
 
   * First release for jammy
