@@ -1,3 +1,9 @@
+gz-gui7 (7.1.0-1~focal) focal; urgency=medium
+
+  * gz-gui7 7.1.0-1 release
+
+ -- Jenn Nguyen <jenn@openrobotics.org>  Fri, 10 Mar 2023 14:57:22 -0800
+
 gz-gui7 (7.0.0-1~focal) focal; urgency=medium
 
   * gz-gui7 7.0.0-1 release
