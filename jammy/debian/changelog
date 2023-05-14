@@ -1,3 +1,9 @@
+gz-gui7 (7.2.0-1~jammy) jammy; urgency=medium
+
+  * gz-gui7 7.2.0-1 release
+
+ -- Michael Carroll <michael@openrobotics.org>  Sun, 14 May 2023 07:40:38 -0500
+
 gz-gui7 (7.1.0-1~jammy) jammy; urgency=medium
 
   * gz-gui7 7.1.0-1 release
