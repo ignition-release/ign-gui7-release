@@ -1,3 +1,9 @@
+gz-gui7 (7.2.1-1~jammy) jammy; urgency=medium
+
+  * gz-gui7 7.2.1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 26 Sep 2023 14:56:50 -0500
+
 gz-gui7 (7.2.0-1~jammy) jammy; urgency=medium
 
   * gz-gui7 7.2.0-1 release
