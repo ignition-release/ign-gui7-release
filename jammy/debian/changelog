@@ -1,3 +1,9 @@
+gz-gui7 (7.2.2-1~jammy) jammy; urgency=medium
+
+  * gz-gui7 7.2.2-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 24 May 2024 15:54:49 +0200
+
 gz-gui7 (7.2.1-1~jammy) jammy; urgency=medium
 
   * gz-gui7 7.2.1-1 release
